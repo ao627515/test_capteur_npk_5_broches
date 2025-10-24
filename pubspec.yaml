@@ -1,0 +1,28 @@
+name: test_capteur
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.8.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+    # Gestion d'état
+  provider: ^6.1.2
+  
+  # Pour les icônes
+  cupertino_icons: ^1.0.8
+  usb_serial: ^0.5.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/imgs/agriculture_banner.jpeg
